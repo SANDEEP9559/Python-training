@@ -1,0 +1,19 @@
+def hcf(a, b): 
+
+    if(b == 0): 
+
+        return a 
+
+    else: 
+
+        return hcf(b, a % b) 
+
+  
+
+a = 12
+b = 14
+
+print("Given numbers are",a,"and",b)
+print("GCD = ", end="") 
+
+print(hcf(12,14))
