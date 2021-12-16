@@ -1,0 +1,8 @@
+x=int(input("Please input the value of the first number\n"))
+print("You entered = ",x)
+y=int(input("Please input the value of the second number\n"))
+print("You entered = ",y)
+if x>y:
+	print ("The maximum number is the first number and its value is:", x)
+else:
+	print ("The maximum number is the second number and its value is:", y)
