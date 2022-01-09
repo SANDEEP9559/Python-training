@@ -1,0 +1,22 @@
+'''Write a python program to get input from the user using a while loop and print if it is an even number or not until 0 is not pressed.
+
+Expected input:
+5
+0
+
+# The required output is: 
+please provide any input or 0 to terminate
+5  is an odd number
+please provide any input or 0 to terminate
+You entered 0, program will exit now.'''
+
+#code
+
+x=int(input("please provide any input or 0 to terminate\n"))
+if x%2==0:
+    print(x, "is an even number")
+else:
+    print(x, " is an odd number")
+x = int(input("please provide any input or 0 to terminate\n"))
+if x==0:
+	print("You entered 0, program will exit now.")
