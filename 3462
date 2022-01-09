@@ -1,0 +1,12 @@
+#Print the multiplication table using recursion.
+
+#code
+
+def print_table(num, i):
+    if (i > 10):
+        return
+    print(num,"*",i,"=",num*i)
+    return print_table(num,i+1)
+    
+num = 6
+print_table(num, 1)
