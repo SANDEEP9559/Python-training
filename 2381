@@ -1,0 +1,25 @@
+'''Write a short program to print first n odd numbers in descending order.
+n will be entered by the user. 
+Expected input :
+5
+
+Expected output :
+Enter Number :
+You entered  5
+First  5  odd numbers in descending order are :
+9
+7
+5
+3
+1
+'''
+
+
+# Code
+
+num = int(input("Enter Number :\n"))
+print("You entered ",num)
+print("First ",num," odd numbers in descending order are :")
+for i in range(num-1,-1,-1):
+    odd_num = 1+i*2
+    print(odd_num)
