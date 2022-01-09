@@ -1,0 +1,14 @@
+'''Write a simple python program to take input from the user and then print it's reverse using negative indexing of extended slicing index
+for example, if user inputs ABC then the output will be as CBA.
+
+
+# The required output is as:
+Please input your string
+Your inputted string is:  E and ICT Academy
+The reverse of the inputted string is:  ymedacA TCI dna E'''
+
+#code
+
+userinput=input("Please input your string\n")
+print ("Your input string is: ",userinput)
+print ("The reverse of the input string is: ",userinput[::-1])
